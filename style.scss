@@ -1,0 +1,67 @@
+$theme: black;
+$gray: #555;
+
+body {
+	font-family: Arial, sans-serif;
+	font-size: 100%;
+	margin: 0 auto;
+}
+
+canvas {
+	background-color: black;
+	border: 2px solid #888;
+}
+
+header {
+	width: 70%;
+	margin-left: 15%;
+	margin-bottom: 25px;
+	margin-top: 25px;
+	background-color: $gray;
+	color: #fff;
+	h1 {
+		margin: 0;
+		padding: 6px 0;
+		font-size: 2.2em;
+	}
+}
+
+#main {
+	margin: 0 auto;
+	text-align: center;
+}
+#directions {
+	width: 600px;
+	margin: 20px auto;
+}
+
+button {
+	margin: 0 5px;
+	background-color: #fff;
+	border: 3px solid $theme;
+	border-radius: 4px;
+	&:hover {
+		background-color: #888;
+	}
+}
+img { 
+	height: 24px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+.pause {
+	margin-left: 10px;
+	margin-right: 10px;
+}
+.play {
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+span {
+	padding: 5px 10px;
+	color: #fff;
+	background-color: $gray;
+	border: 1px solid $gray;
+	border-radius: 4px;
+}
